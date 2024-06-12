@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問卷調查</title>
+    <link rel="stylesheet"  href="../css/question.css">
+    <link rel="icon" href="../img/Level logo.png">
+</head>
+<body>
+    <div class="question"> 
+        <div class="header">
+         <a href="../index.html"><img src="../img/Level logo.png" width="100px" height="100px" alt=""> </a><!-- 要做可以返回頁面的 -->
+         <h1>穿搭小問卷</h1>
+        </div>
+         <table border="3" >
+             <tr>
+                 <td>姓名</td>
+                 <td> <input  type="text" name="Username" id="Username"  size="49" placeholder="你的姓名"></td>
+             </tr>
+             <tr>
+                 <td>你的年齡</td>
+                 <td><input type="text" name="years" size="49"></td>
+             </tr>
+             <tr>
+                 <td>出生年月日</td>
+                 <td><input type="date" name="birthday"></td>
+             </tr>
+             <tr>
+                 <td>聯絡手機</td>
+                 <td><input type="tel" name="UserTel" size="49"  
+                 pattern="[0-9]{4}(\-[0-9]{6})" title="例如0912345678" placeholder="例如0912345678"></td>
+             </tr>
+             <tr>
+                 <td>E-mail</td>
+                 <td><input type="email" name="UserEmail" size="49" placeholder="xxx@xxxxxx"></td>
+             </tr>
+             <tr>
+                <td>每個月的零用錢</td>
+                <td>
+                <input type="radio" name="PocketMoney" value="1" checked>7000元
+                <input type="radio" name="PocketMoney" value="2" >10000元
+                <input type="radio" name="PocketMoney" value="3" >15000元
+                <input type="radio" name="PocketMoney" value="4" >兩萬元以上
+            </td>
+             <tr>
+                 <td>衣服上的每月花費</td>
+                 <td>
+                 <input type="radio" name="MonthCost" value="1" checked>1000元
+                 <input type="radio" name="MonthCost" value="2" >3000元
+                 <input type="radio" name="MonthCost" value="3" >5000元
+                 <input type="radio" name="MonthCost" value="4" >8000元
+                 <input type="radio" name="MonthCost" value="5" >一萬元以上
+             </td>
+             </tr>
+             <tr>
+                 <td>喜歡的風格</td>
+                 <td><input type="checkbox" name="Usercourses[]" value="function">機能風
+                 <input type="checkbox" name="UserStyle[]" value="sport" checked >運動風
+                 <input type="checkbox" name="UserStyle[]" value="outdoor" >戶外風
+                 <input type="checkbox" name="UserStyle[]" value="old" >復古風
+                 </td>
+             </tr>
+             <tr>
+                 <td>花在身上最多的部位</td>
+                 <td>
+                    <input type="text" list="data" name="datalist">
+                    <datalist id="data">
+                     <option value="">請選擇</option>
+                     <option value="上半身">上半身</option>
+                     <option value="下半身">下半身</option>
+                     <option value="飾品">飾品</option>
+                    </datalist>
+                 </td>
+             </tr>
+             <tr>
+                 <td></td>
+                 <td colspan="2" style="text-align: right ;">
+                     <input type="submit" value=" 提交">
+                     <input type="submit" value="重新輸入">
+                 </td>
+                 <td></td>
+             </tr>
+         </table>
+        </div>
+</body>
+</html>

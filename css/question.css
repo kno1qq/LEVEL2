@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.question{
+    width: 960px;
+    margin: auto;
+    color: rgb(11, 8, 44);
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+}
+.header{
+    display: flex;
+}
+.header h1{
+ padding: 30px 0px 0px 0px;
+}
+.question{
+    background-color: rgb(241, 241, 240);
+}
+

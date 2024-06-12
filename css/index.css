@@ -1,0 +1,90 @@
+body
+{
+    background-color: rgb(241, 241, 240);
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container
+{
+    width: 960px;
+    margin: 0 auto;
+}
+a
+{
+  color: rgb(59, 148, 184);
+  font-weight: bolder;
+  text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: burlywood;
+}
+h1:hover
+{
+    color: rgb(150, 149, 141);  
+    transform: rotate(3deg)
+}
+header
+{
+background-color: rgb(209, 205, 205);
+height: 80px;
+padding: 5px;
+}
+header img{
+  float: left;
+}
+#name{
+  left: 100px;
+  font-size: 30px;
+}
+.nolist
+{
+    list-style-type:lower-alpha;
+}
+nav li
+{
+  display: inline-block;
+  margin-right: 20px;
+}
+nav a
+{
+ color:darkgray;
+ background-color: rgb(229, 229, 226);
+ padding: 15px 10px;
+}
+nav
+{
+margin: 30px 0px;
+font-size: 18px;
+font-weight: bold;
+}
+nav a:hover
+{
+color:rgb(229, 229, 226);
+background-color:darkgray ;
+font-size: 20px;
+text-decoration: none;
+}
+h1,h3
+{
+color:rgb(124, 57, 57);
+}
+.research
+{
+ margin-bottom: 50px;
+}
+#publishing img{
+    width: 350px;
+}
+#Topimg
+{
+width: 50px;
+position: fixed;
+bottom: 10px;
+right: 10px;
+}
+#word{
+  font-weight: bolder;
+  color: rgb(48, 48, 48);
+}

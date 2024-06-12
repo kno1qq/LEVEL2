@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(241, 241, 240);
+}
+.header{
+    display: flex;
+}
+h3{
+    font-size: 30px;
+    padding: 30px 10px 10px 10px;
+}
+#file{
+    color: rgb(64, 70, 70);
+    font-size: large;
+    text-align: center;
+    padding: 10px 10px 10px 0px;
+}
+#reset{
+    color: rgb(51, 56, 56);
+    font-size: medium;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+#submit{
+    color: rgb(88, 88, 87);
+    font-size: medium;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.clothes{
+    margin: 0px 0px 0px 50px;
+}
